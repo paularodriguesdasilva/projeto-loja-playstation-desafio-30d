@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon" />
+    <title>Playstation Store</title>
+  </head>
+  <body>
+    <main class="container">
+      <header class="navbar">
+        <img class="logo" src="./img/logo.png" alt="logo" />
+        <nav>
+          <ul id="menu-list">
+            <li class="nav-li"><a class="nav-link">Consoles</a></li>
+            <li class="nav-li"><a class="nav-link">Acessórios</a></li>
+            <li class="nav-li"><a class="nav-link">Controles</a></li>
+            <li class="nav-li"><a class="nav-link">Outros</a></li>
+          </ul>
+        </nav>
+        <img
+          src="./img/menu.png"
+          alt="botao-menu"
+          class="menu-icon"
+          onclick="showMenu()"
+        />
+      </header>
+
+      <section class="row">
+        <div class="column-1">
+          <h2>PS5 Dualshock</h2>
+          <h3>Wireless Controller for Playstation</h3>
+          <p>Controle original</p>
+          <h4>R$ 222,50</h4>
+          <button class="buy-btn">
+            Comprar agora
+            <img src="./img/arrow.png" alt="seta" />
+          </button>
+        </div>
+
+        <div class="column-2">
+          <img class="controller" src="./img/controller.png" alt="controle" />
+          <div class="color-box"></div>
+          <button class="add-cart">
+            <img src="./img/add.png" alt="adicionar-ao-carrinho" />
+          </button>
+        </div>
+      </section>
+      <footer class="social-links">
+        <img src="./img/fb.png" alt="facebook" />
+        <img src="./img/ig.png" alt="instagram" />
+        <img src="./img/tw.png" alt="twitter" />
+      </footer>
+    </main>
+  </body>
+  <script src="./script.js"></script>
+</html>
